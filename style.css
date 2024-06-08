@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #3AAFA9;
+    color: white;
+}
+
+#header{
+    width: 100%;
+    margin: 2 2%;
+    height: auto;
+    
+    
+}
+.container{
+    padding: 10px 10%;
+    
+
+}
+
+nav{
+    
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    border-radius: 35px;
+   
+}
+.logo{
+    font-size: 2.2rem;
+    color: #0B0C10;
+}
+.logo:hover{
+    cursor: default;
+}
+
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter:blur(20px);
+    
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    
+    
+}
+
+nav ul li a::after{
+    content: '';
+    width:0%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.profile-pic{
+    margin-top: 10%;
+    margin-bottom: 30px;
+    width: 130px;
+    border-radius: 20px;
+}
+.profile-text h1{
+    
+    font-size: 45px;
+    background-color: rgba(0, 0, 0, 0.4);
+    float: middle;
+
+
+}
+
+.profile-text h1 span{
+    color: #ff004f;
+}
+
+#about{
+    padding:80px 0;
+    font-size: 25px;
+    color: #fff;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color:#fff;
+}
+#aboutme{
+    
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.btn{
+    display: inline-flex;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius:6px;
+    color: #fff;
+    background-color: #0B0C10;
+    transition: 0.5s;
+    float: right;
+
+}
+.btn:hover{
+    background: #ff004f;
+}
+
+
+#jobExperiences{
+    padding:80px 0;
+    font-size: 25px;
+    color: #fff;
+}
+
+#projects{
+    padding:80px 0;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+
+
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 30px;
+}
+
+.btn.btn2{
+    display: inline-block;
+    background-color: #ff004f;
+    transition: 0.5s;
+}
+
+.btn.btn2:hover{
+    background-color: #0B0C10;
+}
+
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width:100%;
+    border:0;
+    outline: none;
+    background: #0B0C10 ;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size:18px;
+    border-radius: 6px;
+
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
